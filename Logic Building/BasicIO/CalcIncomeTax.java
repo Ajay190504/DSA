@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class CalcIncomeTax{
 
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the amount: ");
@@ -20,5 +21,6 @@ public class CalcIncomeTax{
             double tax = salary * 0.30;
             System.out.println("Tax amount: " + tax);
         }
+        scanner.close();
     }
 }

@@ -1,6 +1,7 @@
 //Read matrix size, print elements.
 import java.util.Scanner;
 public class MatrixReader {
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

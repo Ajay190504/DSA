@@ -1,6 +1,7 @@
 //Read 5 numbers, print max.
 import java.util.Scanner;
 public class MaxOfFive {
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int max = Integer.MIN_VALUE;

@@ -2,6 +2,7 @@
 
 import java.util.Scanner;
 public class PercentageToDivision {
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter percentage: ");

@@ -2,6 +2,7 @@
 import java.util.Scanner;
 
 public class PrintGrade {
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter your grades: ");
@@ -18,5 +19,6 @@ public class PrintGrade {
        } else {
            System.out.println("Your grade is F.");
        }
+        scanner.close();
     }
     }

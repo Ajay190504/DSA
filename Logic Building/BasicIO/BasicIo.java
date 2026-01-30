@@ -1,7 +1,9 @@
 //Read integer N, print its of different data types.
-imoort java.util.Scanner;
+
+import java.util.Scanner;
 public class BasicIo{
 
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
        Scanner scr = new Scanner(System.in);
 
@@ -34,7 +36,7 @@ public class BasicIo{
        System.out.print("Character: "+c);
 
        System.out.print("Enter a Boolean value: ");
-       bool bl = scr.nextBoolean();
+       boolean bl = scr.nextBoolean();
        System.out.print("Boolean: "+bl);
 
        System.out.print("Enter a String: ");

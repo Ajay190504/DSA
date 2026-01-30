@@ -1,6 +1,7 @@
 //Read date (dd/mm/yyyy), print day
 import java.util.Scanner;
 public class PrintDayFromDate {
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter date (dd/mm/yyyy): ");
