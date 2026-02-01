@@ -40,9 +40,12 @@ public class BasicIo{
        System.out.print("Boolean: "+bl);
 
        System.out.print("Enter a String: ");
-       String str = scr.next();
+       String str = scr.next();             //Only single word or token
        System.out.print("String: "+str);
-
+       
+       System.out.print("Enter a String: ");
+       String str2 = scr.nextLine();        //Strig with spaces or multiple words or line
+       System.out.print("String: "+str2);
        scr.close();
     }
 }
